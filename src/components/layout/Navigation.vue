@@ -14,6 +14,7 @@
 </template>
 
 <script lang="ts">
+import { ROOT_MUTATIONS } from '@/store/mutations';
 import { Component, Vue } from 'vue-property-decorator';
 
 @Component
@@ -21,6 +22,10 @@ export default class Navigation extends Vue {
 
   get sidebar(): boolean {
     return this.$store.state.navigation;
+  }
+
+  set sidebar(value: boolean) {
+    this.$store.commit(ROOT_MUTATIONS.SET_NAVIGATION, value);
   }
 
   items = [
