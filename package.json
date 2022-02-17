@@ -1,5 +1,5 @@
 {
-  "name": "vue-ts-boilerplate",
+  "name": "itinera-web-client",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,6 +10,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
     "@mdi/font": "5.9.55",
+    "@supabase/supabase-js": "^1.30.3",
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "firebase": "^8.7.0",

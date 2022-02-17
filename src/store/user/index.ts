@@ -11,9 +11,10 @@ const state: UserState = {
   authenticationLoading: false,
   profile : {
     id: "",
-    firstname : "",
-    lastname: "",
+    first_name : "",
+    last_name: "",
     email: '',
+    group: '',
   }
 };
 
